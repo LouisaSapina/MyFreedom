@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4C8F94;
+}
+
+header .container {
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.logo {
+    float: left;
+}
+
+nav {
+    float: right;
+    margin-top: 40px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: inline;
+    margin-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+main .top {
+    background: linear-gradient(45deg, #ccc, lightblue);
+    padding: 130px 0 130px 0;
+}
+
+.top h1 {
+    font-size: 52px;
+    color: #3d3d3a;
+}
+
+.top p {
+    color: #3d3d3a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.top button {
+    margin-top: 10px;
+    background-color: #3d3d3a;
+    padding: 12px 30px;
+    border-radius: 10px;
+    border: 1px #3d3d3a solid;
+}
+
+.top button a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottom {
+    padding: 50px 0 50px 0;
+}
+
+.bottom .container {
+    overflow: hidden;
+}
+
+.bottom .tree {
+    width: 350px;
+    float: left;
+    margin-right: 20px;
+}
+
+.bottom .text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2D2D2D;
+    margin: 10px 80px 50px 0;
+
+}
+
+footer {
+    background-color: #2D2D2D;
+    padding: 50px 0 50px 0;
+}
+
+footer p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+}
