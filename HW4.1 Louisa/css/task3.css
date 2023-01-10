@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFAF3;
+    background-image: url(../images/grapes.png);
+    background-size: 660px auto;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+header {
+    padding: 43px 0 43px 0;
+    
+}
+
+.logo {
+    float: left;
+}
+
+nav {
+    margin-left: 83px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 20px 50px 0 0;
+}
+
+nav li a {
+    display: inline;
+    margin-right: 15px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #000000;
+}
+
+nav li a:hover {
+    color: #C08D5D;
+}
+
+header .line {
+    width: 470px;
+    border: 1px solid #C08D5D;
+    margin-top: 43px;
+}
+
+main {
+    margin: 137px 0 72px 0;
+}
+
+h2 {
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-size: 50px;
+    color: #3F4042;
+    line-height: 57px;
+}
+
+h2::after {
+    content: url('../images/logo2.png');
+    margin-left: 8px;
+}
+
+h1 {
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-size: 70px;
+    color: #3F4042;
+    line-height: 80px;
+}
+
+.wave-line img{
+    margin: 45px 0 25px 0;
+}
+
+main p {
+    padding: 0 610px 0 0;
+    font-family: 'Open Sans';
+    color: #3F4042;
+    letter-spacing: 1px;
+}
+
+.link-btn {
+    display: inline-block;
+    border: 2px solid #C08D5D;
+    color: #3F4042;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding-left: 15px;
+    margin-top: 72px;
+    line-height: 64px;
+    font-family: 'Open Sans';
+}
+
+.link-btn::after {
+    content: url('../images/arrow.png');
+    display: inline-block;
+    width: 59px;
+    height: 65px;
+    background-color: #C08D5D;
+    color: #fff;
+    line-height: 64px;
+    text-align: center;
+    margin-left: 11px;
+}
+
+.mouse {
+    display: block;
+    text-align: center;
+    margin-top: 82px;
+}
