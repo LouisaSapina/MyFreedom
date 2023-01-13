@@ -18,21 +18,26 @@ body {
 }
 
 header {
-    padding: 43px 0 43px 0;
-    
+    padding: 43px 0 43px;
+    margin-left: 180px;
+    border-bottom: 1px solid #C08D5D;
+    max-width: 470px;
 }
 
 .logo {
-    float: left;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 nav {
     margin-left: 83px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 nav li {
     display: inline-block;
-    margin: 20px 50px 0 0;
+    margin: 0px 40px 0 0;
 }
 
 nav li a {
@@ -47,11 +52,11 @@ nav li a:hover {
     color: #C08D5D;
 }
 
-header .line {
+/* header .line {
     width: 470px;
     border: 1px solid #C08D5D;
     margin-top: 43px;
-}
+} */
 
 main {
     margin: 137px 0 72px 0;
@@ -66,7 +71,7 @@ h2 {
 }
 
 h2::after {
-    content: url('../images/logo2.png');
+    content: url('../images/logo2.svg');
     margin-left: 8px;
 }
 
@@ -76,6 +81,7 @@ h1 {
     font-size: 70px;
     color: #3F4042;
     line-height: 80px;
+    text-transform: uppercase;
 }
 
 .wave-line img{
@@ -97,13 +103,13 @@ main p {
     letter-spacing: 1px;
     text-decoration: none;
     padding-left: 15px;
-    margin-top: 72px;
-    line-height: 64px;
+    margin-top: 75px;
+    line-height: 65px;
     font-family: 'Open Sans';
 }
 
 .link-btn::after {
-    content: url('../images/arrow.png');
+    content: url('../images/arrow.svg');
     display: inline-block;
     width: 59px;
     height: 65px;
