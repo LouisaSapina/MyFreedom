@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7CDAEF;
+    font-family: 'Play';
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    max-width: 900px;
+}
+
+.cloud1 {
+    position: absolute;
+    right: -150px;
+    top: -59px;
+    z-index: 1;
+}
+
+.cloud2 {
+    position: absolute;
+    left: -283px;
+    top: 178px;
+}
+
+.cloud3 {
+    position: absolute;
+    right: -206px;
+    top: 554px;
+}
+
+.blue {
+    background-color: rgba(14, 73, 126, 0.7);
+    position: relative;
+    margin-top: 104px;
+    padding: 0 79px 0 78px;
+}
+
+h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 99px;
+}
+
+p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 26px;
+}
+
+.first_paragraph {
+    padding-top: 24px;
+}
+
+.gallery {
+    padding: 36px 0 51px;
+}
+
+.birds {
+    margin-right: 10px;
+    margin-bottom: 176px;
+}
+
+.grass {
+    position: fixed;
+    background-image: url(../images/grass.png);
+    z-index: 2;
+    width: 1512px;
+    height: 132px;
+    bottom: 0;
+    left: 0;
+}
