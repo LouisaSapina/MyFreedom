@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .container {
     max-width: 1146px;
     margin: auto;
@@ -18,12 +22,12 @@ header {
 
 header h1 {
     color: #003395;
-    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 54px;
 }
 
 header p {
     color: #000000;
-    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     margin-top: 27px;
 }
@@ -35,7 +39,6 @@ nav {
 nav a {
     color: #ffffff;
     text-decoration: none;
-    font-family: 'Roboto',sans-serif;
     font-size: 14px;
     font-weight: 400;
     display: inline-block;
@@ -45,36 +48,52 @@ nav a {
 .left-column {
     display: inline-block;
     max-width: 754px;
-    vertical-align: middle;
-    margin-right: 25px;
+    vertical-align: top;
+    margin-right: 26px;
+}
+
+main {
+    padding-top: 56px;
 }
 
 main h2 {
     color: #003395;
-    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 27px;
     padding: 13px 0 15px 0;
     border-top: 2px solid #003395;
     border-bottom: 2px solid #003395;
+}
+
+.text {
     margin-top: 34px;
 }
 
 main p {
     color: #000000;
-    font-family: 'Roboto',sans-serif;
     font-weight: 400;
     margin-top: 16px;
-
 }
 
 .right-column {
     display: inline-block;
     max-width: 362px;
-    vertical-align: middle;
+    vertical-align: top;
 }
 
 .box {
+    border: 2px solid #003395;
+    padding: 19px 19px 26px 19px;
+}
+
+.box p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #30233D;
+}
+
+.box2 {
     border: 2px solid #003395;
     padding: 19px 19px 26px 19px;
     margin-top: 55px;
@@ -82,7 +101,6 @@ main p {
 
 .box h3 {
     color: #ffffff;
-    font-family: 'Roboto', sans-serif;
     background-color: #24B0FF;
     padding: 14px 17px;
 }
@@ -93,6 +111,23 @@ main p {
     margin-top: 8px;
 }
 
+.box2 h3 {
+    color: #ffffff;
+    background-color: #24B0FF;
+    padding: 14px 17px;
+}
+
+.box2 ul {
+    list-style: none;
+    line-height: 26px;
+    margin-top: 8px;
+}
+
+.box2 ul li a {
+    color: #00205F;
+    text-decoration-line: underline;
+}
+
 footer {
     background: linear-gradient(to bottom, #003395, #00205F);
     padding: 45px 0 83px 0;
@@ -101,7 +136,5 @@ footer {
 
 footer p {
     color: #ffffff;
-    font-family: 'Roboto', sans-serif;
     text-align: right;
-
 }
