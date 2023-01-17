@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'M PLUS 1p';
+}
+
+.container {
+    max-width: 1147px;
+    margin: auto;
+}
+
+header {
+    padding: 53px 0 53px;
+}
+
+header .flex-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    font-weight: 900;
+    color: #0F044C;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 47px;
+    list-style: none;
+}
+
+header nav li a {
+    font-weight: 800;
+    font-size: 14px;
+    color: #080800;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+header .tel a{
+    font-weight: 800;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #30233D;
+    text-decoration: none;
+}
+
+.phone-number__icon {
+    width: 18px;
+    height: 29px;
+}
+
+header .phone-number  {
+    width: 211px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.responsive-layout {
+    background-image: url(../images/city.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 126px 0 115px;
+}
+
+.responsive-layout h1 {
+    font-weight: 500;
+    font-size: 54px;
+    color: #FCFCFC;
+}
+
+.responsive-layout p {
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #F4F4ED;
+    margin-top: 22px;
+}
+
+.remember {
+    padding: 72px 0 58px;
+}
+
+.remember h4 {
+    font-weight: 800;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #A22F32;    
+}
+
+.remember .remember-text {
+    font-weight: 500;
+    font-size: 27px;
+    color: #30233D;
+    margin: 12px 0 60px;
+    line-height: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box-card {
+    border: 1px solid #F61067;
+    padding: 39px 36px 64px 36px;
+    max-width: 362px;
+}
+
+.box-card h2 {
+    font-weight: 500;
+    font-size: 27px;
+    color: #30233D;
+    margin: 33px 0 18px;
+}
+
+.box-card p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #30233D;
+}
+
+footer {
+    background-color: #000000;
+    padding: 84px 0 72px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.footer-rights {
+    font-weight: 400;
+    font-size: 11px;
+    color: #FCFCFC;
+}
+
+.footer-icons a {
+    text-decoration: none;
+}
