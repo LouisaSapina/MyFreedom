@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F6F8FA;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h3 {
+    margin-top: 150px;
+    font-family: Arial;
+    color: #222222;
+    font-weight: 600;
+}
+
+p {
+    font-family: Arial;
+    color: #222222;
+}
+
+.input-box {
+    display: flex;
+    border: 2px solid #bcbdbd;
+    border-radius: 3px;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+.enter-text {
+    vertical-align: top;
+    padding: 10px 20px 9px 8px;
+    border: none;
+    transition: 0.5ms;
+    width: 300px;
+}
+
+.enter-text:focus {
+    outline-color: rgb(71, 71, 212);
+    box-shadow: 0 0 5px #719ECE;
+    border: none;
+}
+
+label {
+    display: flex;
+    font-family: Arial;
+    color: #727272;
+    font-size: 14px;
+}
+
+.datetime {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0 20px 0;
+}
+
+select {
+    outline: none;
+    border: 1px solid #bcbdbd;
+    border-radius: 3px;
+    padding: 8px 15px;
+    color: #727272;
+}
+
+select:focus {
+    box-shadow: 0 0 5px #719ECE;
+    border: none;
+}
+
+option {
+    color:#727272;
+    background: #F6F8FA;
+  }
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 35px;
+    background-color: rgb(66, 171, 66);
+    border: none;
+    border-radius: 3px;
+    width: 300px;
+    transition: 0.3s;
+
+    font-family: Arial;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.submit:hover {
+    background-color: rgb(49, 129, 49);
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.line {
+    width: 30px;
+    border-bottom: 1px solid #b5b5b5;
+    margin: 0 10px;
+}
+
+.or p{
+    font-family: Arial;
+    color: #727272;
+    font-size: 14px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 35px;
+    background-color: #719ECE;
+    border: none;
+    border-radius: 3px;
+    width: 300px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+    font-family: Arial;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #5c81a8;;
+}
