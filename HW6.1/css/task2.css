@@ -33,10 +33,13 @@ header a {
 
 header nav ul {
     display: flex;
+    justify-content: space-between;
+    width: 462px;
+    
 }
 
 header nav ul li {
-    margin-left: 47px;
+    /* margin-left: 47px; */
     list-style: none;
 }
 
@@ -107,6 +110,7 @@ header .phone-number  {
     color: #30233D;
     margin: 12px 0 60px;
     line-height: 40px;
+    max-width: 870px;
 }
 
 .cards {
