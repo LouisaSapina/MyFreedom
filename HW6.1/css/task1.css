@@ -178,15 +178,15 @@ footer a {
 }
 
 footer .email {
-    background: url(../images/icon-email.svg) no-repeat left center;
+    background: url(../icons/icon-email.svg) no-repeat left center;
 }
 
 footer .tel {
-    background: url(../images/icon-phone.svg) no-repeat left center;
+    background: url(../icons/icon-phone.svg) no-repeat left center;
 }
 
 footer .local {
-    background: url(../images/icon-marker.svg) no-repeat left center;
+    background: url(../icons/icon-marker.svg) no-repeat left center;
     padding-left: 42px;
 }
 
