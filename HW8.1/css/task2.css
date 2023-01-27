@@ -533,9 +533,9 @@ footer .local {
     }
     .pets {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        justify-content: center;
     }
+
     .help {
         /* gap: 55px 60px; */
         margin: 0 auto;
@@ -551,6 +551,15 @@ footer .local {
         font-size: 15px;
     }
 
+}
+@media screen and (max-width: 400px) {
+    .pets-nav {
+        order: 2;
+        display: flex;
+        align-items: center;
+        margin: 0 40px;
+        
+    }
 }
 
 @media screen and (max-width: 320px) { /* phone */
@@ -593,14 +602,14 @@ footer .local {
     }
     .pets {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
+        justify-content: center;
     }
     .pets-nav {
         order: 2;
         display: flex;
         align-items: center;
-        max-width: 180px;
+        margin: 0 40px;
         justify-content: space-between;
     }
     .shelter-help h3 {
