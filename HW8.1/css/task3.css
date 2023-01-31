@@ -207,11 +207,9 @@ footer .local {
 }
 
 @media screen  and (max-width: 768px) { /* tablet */
-    .container {
-        padding: 0px 30px;
-    }
+
     main {
-        padding: 80px 0 76px;
+        padding: 80px 10px 76px;
     }
     main h1 {
         margin-bottom: 30px;
