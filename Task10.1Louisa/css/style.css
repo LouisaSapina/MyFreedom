@@ -1,4 +1,9 @@
-/* colors */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header {
   padding-top: 56px;
 }
@@ -155,21 +160,21 @@ header .container .logo-wrapper .logo-text a {
 }
 .our-services .container .services {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
-  gap: 37px 0;
+  gap: 37px 36px;
   margin: 80px 0 72px;
 }
 .our-services .container .services .services-card {
-  padding: 47px 0 47px 38px;
+  padding: 47px 50px 47px 38px;
   background: #ffffff;
   box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4); /* drop shadow */
   border-radius: 20px;
   width: 350px;
 }
 .our-services .container .services .services-card img {
-  width: 4vw;
-  height: 8vh;
+  width: 80px;
+  height: 95px;
 }
 .our-services .container .services .services-card h3 {
   font-weight: 700;
@@ -294,12 +299,10 @@ header .container .logo-wrapper .logo-text a {
   vertical-align: middle;
   border: 1.4px solid #458FF6;
   border-radius: 55px;
-  height: 56px;
-  padding: 0px 43px;
+  padding: 20px 43px;
   text-decoration: none;
   font-weight: 700;
   font-size: 18px;
-  line-height: 60px;
   color: #458FF6;
 }
 .mobile-apps .container .apps-content .apps-text .download-button::after {
@@ -307,7 +310,6 @@ header .container .logo-wrapper .logo-text a {
   display: inline-block;
   vertical-align: middle;
   margin-left: 14px;
-  line-height: 60px;
 }
 
 .customer {
@@ -442,12 +444,14 @@ header .container .logo-wrapper .logo-text a {
   font-size: 21px;
   line-height: 32px;
   margin-top: 24px;
+  padding-left: 33px;
   color: #000000;
 }
 .article .container .latest-article .article-card p {
   font-weight: 300;
   font-size: 16px;
   line-height: 28px;
+  padding-left: 33px;
   width: 266px;
   color: #7D7987;
   margin: 12px 0 25px;
@@ -456,6 +460,7 @@ header .container .logo-wrapper .logo-text a {
   font-weight: 600;
   font-size: 17px;
   text-decoration: none;
+  padding-left: 33px;
   color: #4089ED;
 }
 .article .container .latest-article .article-card a::after {
@@ -484,10 +489,11 @@ footer {
   background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
   padding: 118px 0 113px;
   position: relative;
+  overflow: hidden;
 }
 footer .dots {
   position: absolute;
-  bottom: 0px;
+  bottom: -19px;
   left: -19px;
 }
 footer .container {
