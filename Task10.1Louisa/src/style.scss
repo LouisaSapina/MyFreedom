@@ -1,5 +1,11 @@
 @import "./variables";
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 @mixin flex($display: flex, $just: start, $align: center) {
     display: $display;
     justify-content: $just;
@@ -210,7 +216,7 @@ header {
                 background: $white;
                 box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4); /* drop shadow */
                 border-radius: 20px;
-                // width: 350px;
+                width: 350px;
 
                 img {
                     width: 80px;
