@@ -1024,6 +1024,9 @@ footer {
 }
 
 @media screen and (max-width: 625px) {
+    header {
+        z-index: 3;
+    }
     .first-page {
         background-position: bottom 0 right 35%;
         padding: 137px 0 84px;
