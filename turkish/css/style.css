@@ -264,6 +264,14 @@ header .container .header__menu button:hover {
   font-feature-settings: "liga" off;
   color: #ffffff;
 }
+.test .container .test__blocks .test__inner__p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 31px;
+  font-feature-settings: "liga" off;
+  color: #ffffff;
+  width: 199px;
+}
 
 .img-boxes {
   padding: 160px 0;
@@ -833,9 +841,9 @@ footer .container .footer__rights .footer__socials a:hover {
   }
 }
 @media screen and (max-width: 625px) {
-    header {
-        z-index: 3;
-   }
+  header {
+    z-index: 3;
+  }
   .first-page {
     background-position: bottom 0 right 35%;
     padding: 137px 0 84px;
@@ -1025,6 +1033,36 @@ footer .container .footer__rights .footer__socials a:hover {
   }
 }
 @media screen and (max-width: 384px) {
+  header .container {
+    width: 90%;
+  }
+  .first-page .container {
+    width: 90%;
+  }
+  .second-page .container {
+    width: 90%;
+  }
+  .test .container {
+    width: 90%;
+  }
+  .test .container .test__blocks .test__inner__p {
+    width: 183px;
+  }
+  .img-boxes .container {
+    width: 90%;
+  }
+  .partners .container {
+    width: 90%;
+  }
+  .contacts .container {
+    width: 90%;
+  }
+  footer .container {
+    width: 90%;
+  }
+  .partners .container {
+    width: 90%;
+  }
   .partners .container .partners-box .disabled {
     display: none;
   }
